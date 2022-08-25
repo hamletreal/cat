@@ -4,8 +4,7 @@ pp.Parent = workspace
 pp.Anchored = true
 pp.Position = Vector3.new(2948.31, 831.4, -720.93)
 pp.Size = Vector3.new(667.43, 0.09, 714.8)
-
-
+game.Players.LocalPlayer.Character:MoveTo(pp.Position)
 starterGui:SetCore("SendNotification", {
     Title = "press E to cat",
     Text = "Reign hell upon worlds",
