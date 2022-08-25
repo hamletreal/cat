@@ -11,9 +11,3 @@ starterGui:SetCore("SendNotification", {
     Text = "Reign hell upon worlds",
     Icon = "rbxassetid://8645011774"
 })
-
-game:GetService("Players"
-).LocalPlayer.Character.HumanoidRootPart.Touched:Connect(function(a)
-if a~= game:GetService("Workspace").Terrain then
-a.CanCollide=false
-end end)
