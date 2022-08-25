@@ -7,9 +7,11 @@ pp.Anchored = true
 pp.Position = Vector3.new(2948.31, 831.4, -720.93)
 pp.Size = Vector3.new(667.43, 0.09, 714.8)
 game.Players.LocalPlayer.Character:MoveTo(pp.Position)
-
+game.starterGui:SetCore("SendNotification," {
+Title = "jinx has arrived";
+Text = "press E to go cat mode"
+})
 useInputService.InputBegan:Connect(function(input,GPE)
-
 if input.Keycode == Enum.Keycode.E then
 game.Workspace.platform.Cancollide = false
 end
