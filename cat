@@ -9,7 +9,9 @@ pp.Size = Vector3.new(667.43, 0.09, 714.8)
 game.Players.LocalPlayer.Character:MoveTo(pp.Position)
 game.starterGui:SetCore("SendNotification," {
 Title = "jinx has arrived";
-Text = "press E to go cat mode"
+Text = "press E to go cat mode";
+Icon = "http://www.roblox.com/asset/?id=9692620089";
+Duration = "7";
 })
 useInputService.InputBegan:Connect(function(input,GPE)
 if input.Keycode == Enum.Keycode.E then
