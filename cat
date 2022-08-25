@@ -10,7 +10,7 @@ game.Players.LocalPlayer.Character:MoveTo(pp.Position)
 
 useInputService.InputBegan:Connect(function(input,GPE)
 
-if input.Keycode == Enum.Keycode.Delete then
+if input.Keycode == Enum.Keycode.E then
 game.Workspace.platform.Cancollide = false
 end
 end)
